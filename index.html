@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AWL Construction — Specialist Construction & Interior Systems</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" onclick="g('hero')">AWL Construction<sup>Ltd</sup></a>
+  <button class="nav-burger" id="burger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-r" id="nav-r">
+    <button class="nav-link" onclick="g('about');closeMenu()">About</button>
+    <button class="nav-link" onclick="g('services');closeMenu()">Services</button>
+    <button class="nav-link" onclick="g('projects');closeMenu()">Projects</button>
+    <button class="nav-link" onclick="g('contact');closeMenu()">Contact</button>
+    <button class="nav-cta" onclick="g('contact');closeMenu()">Request a Quote</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-photo"><img src="hero-construction-site.jpg" alt="AWL Construction"></div>
+  <div class="hero-grad"></div>
+  <div class="hero-top-line"></div>
+  <div class="hero-body">
+    <div>
+      <div class="hero-kicker">Specialist Construction &nbsp;·&nbsp; Est. 2021</div>
+      <h1 class="hero-h1">BUILT TO<br>DELIVER<br>AT SCALE</h1>
+      <p class="hero-sub">Commercial and healthcare construction delivered properly — from structure through to internal systems.</p>
+      <div class="hero-btns">
+        <button class="btn-sky" onclick="g('contact')">Request a Quote</button>
+        <button class="btn-ghost" onclick="g('projects')">View Projects</button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div><div class="hs-n">10+</div><div class="hs-l">Major Projects</div></div>
+      <div><div class="hs-n">6</div><div class="hs-l">Specialisms</div></div>
+      <div><div class="hs-n">2021</div><div class="hs-l">Established</div></div>
+    </div>
+  </div>
+  <div class="hero-scroll"><div class="hero-scroll-bar"></div><div class="hero-scroll-lbl">Scroll</div></div>
+</section>
+
+<!-- BAND -->
+<div class="band">
+  <p class="band-txt">AWL Construction delivers <em>specialist construction and interior systems</em> for healthcare, commercial and complex built environments — with the standards and reliability clients should expect but rarely get.</p>
+  <div class="band-tags">
+    <span class="btag">Bluesky Accredited</span>
+    <span class="btag">NHS Approved</span>
+    <span class="btag">Co. No. 13201027</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-img">
+      <img src="about-site-planning.jpg" alt="AWL Construction — site planning">
+      <div class="about-img-shade"></div>
+      <div class="about-img-cap"><span>AWL Construction</span><p>Planned precisely, delivered on programme</p></div>
+    </div>
+    <div class="about-text">
+      <div class="about-yr">21</div>
+      <div class="tag R">Our Foundation</div>
+      <h2 class="about-h R" style="transition-delay:.1s">Built Because<br>The Industry<br><em>Wasn't Good Enough</em></h2>
+      <div class="about-rule R" style="transition-delay:.18s"></div>
+      <p class="about-p R" style="transition-delay:.22s">AWL Construction was founded by Anthony Lynch in 2021 — after years of watching projects fail through poor standards and indifference to quality.<br><br>We built AWL to change that. To deliver construction properly: planned correctly, supervised properly, finished to the standard it should be.</p>
+      <div class="figs R" style="transition-delay:.32s">
+        <div><div class="fn">10+</div><div class="fl">Major NHS Sites</div></div>
+        <div><div class="fn">6</div><div class="fl">Core Trades</div></div>
+        <div><div class="fn">100%</div><div class="fl">Delivery Rate</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec services" id="services">
+  <div class="inner">
+    <div class="svc-head">
+      <div class="R"><div class="tag lt">What We Deliver</div><h2 class="svc-h">CORE<br><span>SERVICES</span></h2></div>
+      <p class="svc-intro R" style="transition-delay:.12s">Six specialist construction trades. Delivered by experienced, supervised teams who understand commercial environments and the standards that go with them.</p>
+    </div>
+    <div>
+      <div class="svc-row R"><span class="svc-n">01</span><span class="svc-name">SFS Systems</span><span class="svc-desc">Steel Framing Systems for external walls, partitions and façade support — fast, precise, built to perform.</span><span class="svc-arr">→</span></div>
+      <div class="svc-row R" style="transition-delay:.05s"><span class="svc-n">02</span><span class="svc-name">Metal Stud Partitions</span><span class="svc-desc">High-tolerance partition systems from straight runs to complex fire-rated layouts.</span><span class="svc-arr">→</span></div>
+      <div class="svc-row R" style="transition-delay:.1s"><span class="svc-n">03</span><span class="svc-name">Linings</span><span class="svc-desc">Specialist wall and ceiling linings to exact specification — ready for decoration.</span><span class="svc-arr">→</span></div>
+      <div class="svc-row R" style="transition-delay:.15s"><span class="svc-n">04</span><span class="svc-name">Suspended Ceilings</span><span class="svc-desc">Grid systems, metal tile and bespoke plasterboard across live commercial and healthcare environments.</span><span class="svc-arr">→</span></div>
+      <div class="svc-row R" style="transition-delay:.2s"><span class="svc-n">05</span><span class="svc-name">Internal Finishes</span><span class="svc-desc">Tape and joint, spray plaster, traditional plaster — flawless surfaces from first fix to handover.</span><span class="svc-arr">→</span></div>
+      <div class="svc-row R" style="transition-delay:.25s"><span class="svc-n">06</span><span class="svc-name">Fire Stopping</span><span class="svc-desc">Certified passive fire protection — compartmentation, penetration sealing, full compliance. Bluesky accredited.</span><span class="svc-arr">→</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="proj-head R">
+    <div><div class="tag" style="margin-bottom:16px">Selected Work</div><h2 class="proj-head-h">RECENT<br>PROJECTS</h2></div>
+    <p class="proj-head-sub">Completed across healthcare and commercial environments throughout the United Kingdom — 2022 to 2025.</p>
+  </div>
+  <div class="proj-feat R" style="transition-delay:.1s">
+    <img src="project-royal-surrey-hospital.jpg" alt="Royal Surrey Hospital">
+    <div class="proj-feat-grad"></div>
+    <div class="proj-feat-label">Featured Project</div>
+    <div class="proj-feat-body">
+      <div class="proj-feat-name">Royal Surrey<br>Hospital</div>
+      <div class="proj-feat-meta">
+        <div><div class="pmi-l">Location</div><div class="pmi-v">Guildford, Surrey</div></div>
+        <div><div class="pmi-l">Sector</div><div class="pmi-v">NHS Healthcare</div></div>
+        <div><div class="pmi-l">Completed</div><div class="pmi-v">August 2025</div></div>
+        <div><div class="pmi-l">Scope</div><div class="pmi-v">SFS · Partitions · Ceilings</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="proj-grid R" style="transition-delay:.2s">
+    <div class="pgc"><div class="pgc-top"></div><img src="project-royal-berkshire-hospital.jpg" alt="Royal Berkshire Hospital"><div class="pgc-shade"></div><div class="pgc-info"><span class="pgc-tag">Healthcare · Reading</span><div class="pgc-name">Royal Berkshire Hospital</div><div class="pgc-yr">Jun 2025</div></div></div>
+    <div class="pgc"><div class="pgc-top"></div><img src="project-lincoln-cdc.jpg" alt="Lincoln CDC"><div class="pgc-shade"></div><div class="pgc-info"><span class="pgc-tag">Community Diagnostic · Lincoln</span><div class="pgc-name">Lincoln CDC</div><div class="pgc-yr">Apr 2025</div></div></div>
+    <div class="pgc"><div class="pgc-top"></div><img src="project-skegness-hospital.jpg" alt="Skegness Hospital"><div class="pgc-shade"></div><div class="pgc-info"><span class="pgc-tag">Healthcare · Lincolnshire</span><div class="pgc-name">Skegness Hospital</div><div class="pgc-yr">Apr 2025</div></div></div>
+    <div class="pgc"><div class="pgc-top"></div><img src="project-wrightington-hospital.jpg" alt="Wrightington Hospital"><div class="pgc-shade"></div><div class="pgc-info"><span class="pgc-tag">Healthcare · Lancashire</span><div class="pgc-name">Wrightington Hospital</div><div class="pgc-yr">Mar 2025</div></div></div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section class="showcase">
+  <div class="showcase-img">
+    <img src="showcase-completed-interior.jpg" alt="AWL Construction — completed interior">
+    <div class="showcase-img-blend"></div>
+  </div>
+  <div class="showcase-body">
+    <div class="tag lt R">Finished to Standard</div>
+    <h2 class="showcase-h R" style="transition-delay:.1s">The Detail<br>Is The<br><em>Difference</em></h2>
+    <p class="showcase-p R" style="transition-delay:.2s">From suspended ceiling grids to fire-stopped service penetrations, the quality of our work is visible in the finish. Every element installed to specification. Every surface handed over ready for occupation.</p>
+    <div class="R" style="transition-delay:.28s">
+      <div class="spec-row"><span class="spec-name">SFS & Steel Framing</span><span class="spec-lbl">Structural</span></div>
+      <div class="spec-row"><span class="spec-name">Metal Stud Partitions</span><span class="spec-lbl">Partitioning</span></div>
+      <div class="spec-row"><span class="spec-name">Suspended Ceiling Systems</span><span class="spec-lbl">Ceilings</span></div>
+      <div class="spec-row"><span class="spec-name">Tape, Joint & Spray Plaster</span><span class="spec-lbl">Finishes</span></div>
+      <div class="spec-row"><span class="spec-name">Passive Fire Stopping</span><span class="spec-lbl">Fire Safety</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why" id="why">
+  <div class="inner">
+    <div class="why-top">
+      <div class="R"><div class="tag" style="margin-bottom:20px">Why AWL</div><h2 class="why-h">THE AWL<br><span>STANDARD</span></h2></div>
+      <div class="R" style="transition-delay:.15s">
+        <p class="why-quote">"I started AWL because I believed this industry could — and should — be done better. That belief drives every project we take on."</p>
+        <span class="why-cite">Anthony Lynch &nbsp;·&nbsp; Founder, AWL Construction</span>
+      </div>
+    </div>
+    <div class="why-grid R" style="transition-delay:.12s">
+      <div class="wc"><div class="wc-n">01</div><h3>Founded on Standards</h3><p>AWL was built because the industry wasn't good enough. We set a higher bar and hold ourselves to it on every project — without exception.</p></div>
+      <div class="wc"><div class="wc-n">02</div><h3>Commercial Experience</h3><p>NHS hospitals, community diagnostic centres, complex live environments. We operate with confidence where precision is non-negotiable.</p></div>
+      <div class="wc"><div class="wc-n">03</div><h3>Reliable Delivery</h3><p>Programme management is taken seriously. We plan properly, communicate clearly, and deliver on time — without compromising quality.</p></div>
+      <div class="wc"><div class="wc-n">04</div><h3>Attention to Detail</h3><p>The finish matters as much as the frame. From first fix to final coat, our standard never drops and neither does our supervision.</p></div>
+      <div class="wc"><div class="wc-n">05</div><h3>Direct & Accountable</h3><p>You deal with decision-makers. No layers, no excuses — just clear ownership and honest delivery from start to handover.</p></div>
+      <div class="wc"><div class="wc-n">06</div><h3>Right First Time</h3><p>Experienced trades, correct materials, proper supervision. We don't cut corners — our reputation is built entirely on not doing so.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-l">
+    <h2 class="contact-h R">GET IN<br><span class="a">TOUCH</span></h2>
+    <p class="contact-p R" style="transition-delay:.1s">Whether you have a project in planning or a tender to price, we'd welcome the conversation. We respond promptly and without obligation.</p>
+    <div class="R" style="transition-delay:.2s">
+      <div class="ci-b"><div class="ci-l">Email</div><div class="ci-v">info@awlconstruction.co.uk</div></div>
+      <div class="ci-b"><div class="ci-l">Address</div><div class="ci-v">New Platt Lane, Goostrey<br>Crewe, United Kingdom</div></div>
+      <div class="ci-b"><div class="ci-l">Company Registration</div><div class="ci-v">13201027</div></div>
+      <div class="c-badge"><div class="cb-dot"></div><span class="cb-t">Bluesky Accredited — Passive Fire Stopping</span></div>
+    </div>
+  </div>
+  <div class="contact-r">
+    <div id="form-area">
+      <div class="tag R" style="margin-bottom:48px">Send an Enquiry</div>
+      <div class="f2">
+        <div><label class="fl">Full Name *</label><input class="fi" type="text" id="fn" placeholder="Your name"></div>
+        <div><label class="fl">Phone Number</label><input class="fi" type="tel" placeholder="Your number"></div>
+      </div>
+      <label class="fl">Email Address *</label>
+      <input class="fi" type="email" id="fe" placeholder="your@email.com">
+      <label class="fl">Project Details</label>
+      <textarea class="fi" rows="5" placeholder="Tell us about your project — scope, location, programme, sector..."></textarea>
+      <button class="f-sub" onclick="sub()">Send Enquiry <span class="f-arr">→</span></button>
+    </div>
+    <div class="f-ok" id="fok">
+      <p><strong>Thank you for reaching out.</strong><br><br>We've received your enquiry and will be in touch shortly to discuss your project.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-logo">AWL Construction<sup>Ltd</sup></div>
+  <nav class="foot-nav">
+    <button onclick="g('about')">About</button>
+    <button onclick="g('services')">Services</button>
+    <button onclick="g('projects')">Projects</button>
+    <button onclick="g('contact')">Contact</button>
+  </nav>
+  <div class="foot-btm">
+    <p class="foot-cp">© 2025 AWL Construction (N/W) Ltd. All rights reserved.</p>
+    <p class="foot-rg">Registered Company No. 13201027 · Goostrey, Cheshire · United Kingdom</p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+
+</body>
+</html>
